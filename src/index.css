@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+@theme {
+    --color-paper: #FAF7F1;
+    --color-ink: #18181B;
+    --color-mustard: #F59E0B;
+    --color-mustard-light: #FEF3C7;
+    --color-mustard-dark: #B45309;
+    --color-skyblue: #0EA5E9;
+    --color-skyblue-light: #E0F2FE;
+    --color-terracotta: #D94E34;
+    --color-terracotta-light: #FEE2E2;
+    --color-wasabi: #84CC16;
+    --color-wasabi-light: #ECFCCB;
+    --color-tape: rgba(254, 243, 199, 0.85);
+    --color-tape-blue: rgba(224, 242, 254, 0.85);
+    --color-skyblue-dark: #0369A1;
+    --color-lavender: #8B5CF6;
+    --color-lavender-light: #EDE9FE;
+
+
+    /* Fonts */
+    --font-sans: 'Work Sans', sans-serif;
+    --font-display: 'Epilogue', sans-serif;
+    --font-mono: 'Space Mono', monospace;
+    --font-hand: "Caveat", cursive;
+
+    /* Shadows */
+    --shadow-stamp: 3px 3px 0px var(--color-ink);
+    --shadow-card: 4px 4px 0px var(--color-ink);
+    --shadow-float: 6px 6px 0px var(--color-ink);
+    --shadow-pressed: 1px 1px 0px var(--color-ink);
+}
+
+@utility bg-dot-grid {
+    background-color: var(--color-paper);
+    background-image: radial-gradient(var(--color-ink) 0.85px, transparent 0.85px);
+    background-size: 18px 18px;
+}
+
