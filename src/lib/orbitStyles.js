@@ -43,3 +43,17 @@ export const HEAT_STYLES = {
         classes: "border shadow-none bg-skyblue-light text-skyblue-dark border-skyblue/50" 
     },
 };
+
+export const TAG_STYLES = {
+  hardware: "bg-wasabi-light",
+  "print / zine": "bg-mustard-light",
+  "game jam": "bg-skyblue-light",
+  idea: "bg-parchment",
+};
+
+export const LOG_TONES = {
+  terracotta: "text-terracotta",
+  skyblue: "text-skyblue",
+  wasabi: "text-wasabi-dark",
+  muted: "text-ink/60",
+};
