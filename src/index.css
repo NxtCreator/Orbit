@@ -12,11 +12,15 @@
     --color-terracotta-light: #FEE2E2;
     --color-wasabi: #84CC16;
     --color-wasabi-light: #ECFCCB;
+    --color-wasabi-dark: #4D7C0F;
     --color-tape: rgba(254, 243, 199, 0.85);
     --color-tape-blue: rgba(224, 242, 254, 0.85);
     --color-skyblue-dark: #0369A1;
     --color-lavender: #8B5CF6;
     --color-lavender-light: #EDE9FE;
+    --color-parchment: #F5EFE6;
+    --color-parchment-dark: #EFE6D8;
+    --color-sand: #E5DCD0;
 
 
     /* Fonts */
