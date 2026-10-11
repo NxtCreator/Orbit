@@ -1,16 +1,29 @@
-# React + Vite
+# Orbit 🪐
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A tactile workbench for indie makers: where unfinished prototypes, zines, and messy code live while becoming something in orbital flight.
 
-Currently, two official plugins are available:
+**Live demo:** https://orbit-ashen-sigma.vercel.app/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+![Orbit workbench](public/screenshot.png)
 
-## React Compiler
+## What it does
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Currently in Orbit:** zero-cover project cards with washi-tape labels and progress tracks, filterable by lane
+- **Idea Drawer:** capture a stray idea in seconds, then promote it into a real project card
+- **Launch new project:** a quick form that creates a card instantly
+- **Recent Trajectories:** a log that writes itself as you work
+- **Keyboard shortcuts:** `J` to jot an idea, `N` to launch a project
+- Everything saves in your browser (localStorage), so no account and no backend
 
-## Expanding the ESLint configuration
+## Built with
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+React, Vite, Tailwind CSS v4, and Lucide icons. Designed in Stitch.
+
+## Run it locally
+
+    npm install
+    npm run dev
+
+## What's next
+
+Project detail drawer, a command palette, a trophy shelf for shipped projects, and devlog export.
